@@ -1,8 +1,11 @@
-# endpoints
-Code for detection of object endpoints.  
-(Used modules: `OpenCV/3.4.1-foss-2018a-Python-3.6.4, cuDNN/7.6.4.38-gcccuda-2019b, CUDA/10.2.89-GCC-8.3.0, Anaconda3/5.0.1`)
+# Code for detection of object endpoints
+
+Project webpage:
+https://www.di.ens.fr/willow/research/motionforcesfromvideo/
 
 ## Installation
+
+(Used modules: `OpenCV/3.4.1-foss-2018a-Python-3.6.4, cuDNN/7.6.4.38-gcccuda-2019b, CUDA/10.2.89-GCC-8.3.0, Anaconda3/5.0.1`)
 
 1. Install **Mask R-CNN** from **Matterport**:  
 https://github.com/matterport/Mask_RCNN
