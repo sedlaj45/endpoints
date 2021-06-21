@@ -55,7 +55,7 @@ mean that in frame 0001.png the pixel coordinates of endpoints 1 (head) and 2 (h
 
 **Image size for Mask R-CNN input:**
 
-The input size is important for the Mask R-CNN segmentation. The models were trained on 400x600 pixel images zero-padded to 608x608px (Matterport Mask R-CNN requires square input but doesn't allow 600x600px and the closest larger allowed size -- after modification of model.py -- is 608x608px). So the pretrained models should theoretically perform best on frames with the same (or similar) properties (400x600 padded to 608x608).
+The input size is important for the Mask R-CNN segmentation. The models were trained on 400x600 pixel images zero-padded to 608x608 (Matterport Mask R-CNN requires square input but doesn't allow 600x600 and the closest larger allowed size -- after modification of model.py -- is 608x608). So the pretrained models should theoretically perform best on frames with the same (or similar) properties (400x600 padded to 608x608).
 
 The zero-padding to 608x608 is done by the Matterport Mask R-CNN, so you can simply resize your frames to e.g. 400x600. See the image_height (400), image_width (600) and mrcnn_image_size (608) arguments in the handtools_ijcv_mrcnn_inference.py code.
 
