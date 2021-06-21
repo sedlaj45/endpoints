@@ -63,5 +63,5 @@ The input size is important for the Mask R-CNN segmentation. The models were tra
 
 The zero-padding to 608x608 is done by the Matterport Mask R-CNN, so you can simply resize your frames to e.g. 400x600. See the **`image_height`** (400), **`image_width`** (600) and **`mrcnn_image_size`** (608) arguments in the **`handtools_ijcv_mrcnn_inference.py`** code.
 
-Q: Will anything break if I just resize the input image when the Openpose .pkl file is computed with the original image and is used as an input.  
-A: In that case you should also modify the coordinates from Openpose (just a linear rescale) before you apply them in the handtools_ijcv_recognize_endpoints.py code.
+Q: Will anything break if I just resize the input image when the Openpose `.pkl` file is computed with the original image and is used as an input.  
+A: In that case you should also modify the coordinates from Openpose (just a linear rescale) before you apply them in the `handtools_ijcv_recognize_endpoints.py` code.
